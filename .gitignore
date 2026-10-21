@@ -1,0 +1,24 @@
+# Python environments and build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Streamlit runtime and secrets
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+.streamlit/cache/
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE and notebook transient state
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
